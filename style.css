@@ -1,0 +1,366 @@
+#myDiv {
+    display: none;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+}
+
+.body-container {
+    position: relative;
+}
+
+li {
+    margin-left: 30px;
+}
+
+ul li {
+    transition: 0.3s ease;
+}
+
+#darkSwitch {
+    color: white;
+}
+
+.dark-mode {
+    margin-top: 7px;
+}
+
+.heading {
+    margin-top: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url(assets/guitarnew2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    padding: 70px;
+    text-align: left;
+}
+
+.btn1 {
+    margin-top: 20px;
+}
+
+.article-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about {
+    padding: 10px 0 10px 0;
+}
+
+.content {
+    margin-left: 30px;
+    height: 400px;
+}
+
+.article-container img {
+    width: 250px;
+}
+
+.paragraph {
+    margin-left: 30px;
+}
+
+/* .animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+} */
+.par1 {
+    margin-top: 10px;
+}
+
+aside {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 20px;
+    height: 550px;
+}
+
+#ourTeam {
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.uppercard {
+    border-bottom: 1px solid #1a1a1a;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.locationContainer {
+    background-color: #ffffff;
+    height: 440px;
+}
+
+#location {
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.mapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    background-color: #c4c4c400;
+    height: 300px;
+    width: 90%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #A64942;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 20px;
+    height: 300px;
+}
+
+
+.insta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 10px 0 0;
+}
+
+.insta-button a img {
+    width: 25px;
+    border-radius: 0;
+}
+
+.fb-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.fb-button a img {
+    width: 25px;
+    border-radius: 0;
+}
+
+.contact-text {
+    margin-left: 10px;
+}
+
+.phone-icon img {
+    width: 20px;
+    margin: 9px 10px 5px 10px;
+}
+
+.phoneContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.email-icon img {
+    width: 20px;
+    margin: 9px 10px 5px 10px;
+}
+
+.emailContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.tentangKami {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 70px;
+}
+
+footer h4 {
+    font-size: 14px;
+}
+
+@media screen and (max-device-width: 750px) {
+    #loader {
+        margin: -76px 0 0 -60px;
+    }
+
+    .text {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .paragraph {
+        margin-left: 0;
+    }
+
+    .imgcontainer {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-device-width: 660px) {
+    .phoneContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text a {
+        margin-top: 70px;
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-container img {
+        width: 50%;
+    }
+
+    .imgcontainer {
+        margin-left: 0;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        margin-left: 0;
+        height: 600px;
+    }
+
+    .paragraph {
+        margin-left: 0;
+    }
+
+    aside {
+        height: 1000px;
+    }
+
+    .contact {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 50px;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+    }
+
+    .tentangKami {
+        height: 100px;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .tentangKami p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-device-width: 400px) {
+    .jumbo-p {
+        font-size: 20px;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    .text a {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    .paragraph {
+        padding: 10px;
+    }
+
+    .article-container img {
+        width: 80%;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .content {
+        height: 600px;
+    }
+
+    .text a {
+        margin-top: 30px;
+    }
+
+    .tentangKami {
+        margin-bottom: 30px;
+    }
+
+    .map {
+        width: 80%;
+    }
+}
+
+@media screen and (max-device-width: 330px) {
+    .tentangKami {
+        margin-bottom: 30px;
+    }
+}
