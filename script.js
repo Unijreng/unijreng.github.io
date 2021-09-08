@@ -8,6 +8,7 @@ function showPage() {
     document.getElementById("loader").style.display = "none";
     const myDiv = document.getElementById("myDiv");
     myDiv.style.display = "flex";
+    //menambahkan comment
     myDiv.style.flexDirection = "column";
 }
 
