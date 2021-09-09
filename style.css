@@ -330,6 +330,9 @@ footer h4 {
 }
 
 @media screen and (max-device-width: 360px) {
+    .jumbotron {
+        background-attachment: fixed;
+    }
     .paragraph {
         padding: 10px;
     }
